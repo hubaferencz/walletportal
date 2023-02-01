@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/range-slider.css";
+@import "additional-styles/toggle-switch.css";
+@import "additional-styles/flatpickr.css";
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+
+/* body {
+    background: linear-gradient(30deg, rgb(42, 42, 42) , rgb(11, 132, 145));
+
+} */
+
+.main-header {
+  background: rgba(255, 255, 255, 0.121);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0.1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 0 0 10px 10px;
+  /* border-bottom: 0; */
+  border-top: 0;
+}
+
+.chart-box {
+  /* color: black; */
+  background: #ffffff24;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0.1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 10px;
+}
+
+tr {
+  border: 0;
+}
