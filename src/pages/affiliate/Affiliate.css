@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --color-text: #616161;
+  --color-text-btn: #ffffff;
+  --card1-gradient-color1: #f12711;
+  --card1-gradient-color2: #f5af19;
+  --card2-gradient-color1: #7f00ff;
+  --card2-gradient-color2: #e100ff;
+  --card3-gradient-color1: #3f2b96;
+  --card3-gradient-color2: #a8c0ff;
+  --card4-gradient-color1: #11998e;
+  --card4-gradient-color2: #38ef7d;
+}
+.card-wrap {
+  /* width: 220px; */
+  /* border: 5px solid #fff; */
+
+  /* color: var(--color-text); */
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+
+  background: #ffffff45;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.245);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 3px solid rgba(255, 255, 255, 0.32); */
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card-wrap:hover {
+  transform: scale(1.05);
+}
+.card-header {
+  height: 200px;
+  width: 100%;
+  background: red;
+  border-radius: 100% 0% 100% 0% / 0% 90% 90% 100%;
+  display: grid;
+  place-items: center;
+}
+
+.card-header img {
+  color: #fff;
+  width: 92px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #2d2d2d;
+}
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+.card-text {
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+.card-btn {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: #2d2d2d;
+  /* background-color: #0453fc; */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.binance {
+  background: linear-gradient(50deg, #0b0c14, #f3c522);
+}
+.binance-btn {
+  background: #f3c522;
+}
+
+.revolut {
+  background: linear-gradient(50deg, #2078ba, #c268a4);
+}
+.revolut-btn {
+  background: #c268a4;
+  color: white;
+}
+.bybit {
+  background: linear-gradient(50deg, #141c2c, #f3a406);
+}
+.bybit-btn {
+  background: #f3a406;
+}
+
+.coinbase {
+  background: linear-gradient(50deg, #0453fc, #c6d9fc);
+}
+.coinbase-btn {
+  background: #0453fc;
+color: white;
+}
+
+.gemini {
+  /* background: linear-gradient(50deg, #23dcfc, #b1f3fc); */
+    background: linear-gradient(50deg, #13d9fc, #b1f3fc);
+}
+.gemini-btn {
+  background: #13d9fc;
+
+}
+.okx {
+  background: linear-gradient(50deg, #040404, #e2e2e2);
+}
+.okx-btn {
+  background: #040404;
+  color: white;
+}
+.swissborg {
+  background: linear-gradient(50deg, #07ce9e, #c8f5eb);
+}
+.swissborg-btn {
+  background: #59D9B3;
+}
+.cryptocom {
+  background: linear-gradient(50deg, #114385, #fbfbfb);
+}
+.cryptocom-btn {
+  background: #114385;
+  color: white;
+}

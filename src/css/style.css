@@ -12,10 +12,6 @@
 
 @import "tailwindcss/utilities";
 
-/* body {
-    background: linear-gradient(30deg, rgb(42, 42, 42) , rgb(11, 132, 145));
-
-} */
 
 .main-header {
   background: rgba(255, 255, 255, 0.121);
@@ -43,3 +39,19 @@
 tr {
   border: 0;
 }
+
+#pieChart {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+  /* background-color: black; */
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+

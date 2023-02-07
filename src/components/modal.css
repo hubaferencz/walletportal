@@ -1,0 +1,98 @@
+.outside-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.121);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 99;
+}
+.modal {
+  z-index: 199;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.121);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0.1px solid rgba(255, 255, 255, 0.32);
+  transform: translate(-50%, -50%);
+  height: 330px;
+  width: 500px;
+  max-width: 97%;
+  max-height: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.modal-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.modal-content .modal-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #1e293b;
+}
+.modal .modal-input-div {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.modal .modal-error {
+  color: red;
+  font-size: 16px;
+  height: 40px;
+  width: 200px;
+  max-width: 100%;
+}
+.modal .modal-input {
+  background: rgba(255, 255, 255, 0.121);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0.1px solid rgba(255, 255, 255, 0.32);
+  color: #1e293b;
+  outline: none;
+  margin: 0 auto;
+  height: 40px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 8px;
+  width: 200px;
+  max-width: 100%;
+  font-size: 16px;
+}
+
+.modal-close {
+  cursor: pointer;
+  border-radius: 8px;
+  background: transparent;
+}
+
+.modal button {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #1e293b;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.566);
+}
+
+.modal .cancel {
+  border: 1px solid #ff3a3a;
+}
+.modal .submit {
+  margin-left: 5px;
+  border: 1px solid #909DF9;
+}
