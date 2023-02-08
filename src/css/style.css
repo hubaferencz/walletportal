@@ -23,6 +23,11 @@
   border-radius: 0 0 10px 10px;
   /* border-bottom: 0; */
   border-top: 0;
+  
+}
+
+header {
+  position: relative;
 }
 
 .chart-box {
