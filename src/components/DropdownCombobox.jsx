@@ -135,7 +135,7 @@ export default function DropdownCombobox({
       <p className="search-error">
         {showError === true && "Coin already exists in portfolio!"}
       </p>
-      <div {...getComboboxProps()} className="search-div">
+      <div {...getComboboxProps} className="search-div">
         <input
           {...getInputProps()}
           className="search-input"

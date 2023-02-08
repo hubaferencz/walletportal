@@ -8,9 +8,9 @@ function Portfolio(props) {
       <header className="px-5 py-4 ">
         <h2 className="font-semibold text-lg text-slate-800">Portfolio</h2>
         <Link to="get-crypto">
-          <h className="get-crypto bg-blue-500 text-white font-bold py-2 px-4 font-semibold text-lg text-slate-800">
+          <p className="get-crypto bg-blue-500 text-white font-bold py-2 px-4 font-semibold text-lg text-slate-800">
             Get Crypto
-          </h>
+          </p>
         </Link>
       </header>
       <div className="flex flex-col justify-center items-center">

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00b93a13.css",
+    "main.js": "/static/js/main.14a37165.js",
+    "static/media/google.png": "/static/media/google.0c817ff391ad89bf5f43.png",
+    "static/media/cryptocom.png": "/static/media/cryptocom.0a8c137999f8be6ba05d.png",
+    "static/media/swissborg.png": "/static/media/swissborg.15fcc00bd5bf58c84260.png",
+    "static/media/logo.png": "/static/media/logo.eb40ac81c1f4017be788.png",
+    "static/media/binance.png": "/static/media/binance.fbb9674931c359c74ed6.png",
+    "static/media/revolut.png": "/static/media/revolut.62c68efc8ac66fde67ef.png",
+    "static/media/coinbase.png": "/static/media/coinbase.2ffefe5d12b17f1f76be.png",
+    "static/media/gemini.png": "/static/media/gemini.bef9db4b98ebf864c0e6.png",
+    "static/media/bybit.png": "/static/media/bybit.4a8b43e84f2dd869a3e5.png",
+    "static/media/okx.png": "/static/media/okx.85438cec7fcaf47b87cd.png",
+    "static/media/ape.png": "/static/media/ape.b436ee792f001a9477d6.png",
+    "static/media/klown.png": "/static/media/klown.d35bb5a4449cbe8269a5.png",
+    "static/media/arnx.png": "/static/media/arnx.d391a89ae65aea9dd386.png",
+    "index.html": "/index.html",
+    "main.00b93a13.css.map": "/static/css/main.00b93a13.css.map",
+    "main.14a37165.js.map": "/static/js/main.14a37165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00b93a13.css",
+    "static/js/main.14a37165.js"
+  ]
+}
