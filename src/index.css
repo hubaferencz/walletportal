@@ -7,12 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Heebo, sans-serif;
-  background: rgb(0, 181, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 181, 255, 1) 0%,
-    rgba(0, 169, 205, 1) 100%
-  );
+  background-color: #f0f8ff;
   scroll-behavior: smooth;
   min-height: 100%;
 }
@@ -61,7 +56,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  background-color: var(--background-color);
+  background-color: #F5F5F5;
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 

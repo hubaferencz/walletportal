@@ -14,11 +14,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  background: rgba(255, 255, 255, 0.121);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 0.1px solid rgba(255, 255, 255, 0.32);
+  background-color: #007ACC;
   transform: translate(-50%, -50%);
   height: 330px;
   width: 500px;
@@ -40,7 +36,8 @@
   text-align: center;
   font-size: 24px;
   font-weight: 400;
-  color: #1e293b;
+  color: #f0f8ff;
+
 }
 .modal .modal-input-div {
   margin: 0 auto;
@@ -54,7 +51,7 @@
   max-width: 100%;
 }
 .modal .modal-input {
-  background: rgba(255, 255, 255, 0.121);
+  background-color: #f0f8ff;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -90,9 +87,9 @@
 }
 
 .modal .cancel {
-  border: 1px solid #ff3a3a;
+  background-color: #f0f8ff;
 }
 .modal .submit {
   margin-left: 5px;
-  border: 1px solid #909DF9;
+  background-color: #f0f8ff;
 }

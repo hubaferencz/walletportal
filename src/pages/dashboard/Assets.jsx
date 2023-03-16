@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from "react";
 import "./Assets.css";
 import Modal from "../../components/Modal";
@@ -9,10 +8,9 @@ import deleteIcon from "../../images/delete.png";
 import closeIcon from "../../images/close.png";
 
 function Assets(props) {
-
-  const [modalError, setModalError] = useState(false); 
-  const [modalContent, setModalContent] = useState({}); 
-  const [showModal, setShowModal] = useState(false); 
+  const [modalError, setModalError] = useState(false);
+  const [modalContent, setModalContent] = useState({});
+  const [showModal, setShowModal] = useState(false);
 
   const modalRef = useRef();
   const lastModalEl = useRef(null);
@@ -162,9 +160,7 @@ function Assets(props) {
       {/* ----------------------------------------------------------------- */}
 
       <header className="px-5 py-4 ">
-        <h2 className="font-semibold text-slate-800 text-lg asset-header">
-          Assets
-        </h2>
+        <h2 className="font-semibold  text-lg asset-header">Assets</h2>
         <DropdownCombobox
           setShowModal={setShowModal}
           setModalContent={setModalContent}
@@ -179,24 +175,16 @@ function Assets(props) {
             <thead className="text-xs uppercase rounded-sm">
               <tr>
                 <th className="p-2">
-                  <div className="font-semibold text-slate-800 text-left">
-                    Coin
-                  </div>
+                  <div className="font-semibold  text-left">Coin</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold text-slate-800 text-center">
-                    Holdings
-                  </div>
+                  <div className="font-semibold  text-center">Holdings</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold text-slate-800 text-center">
-                    Value
-                  </div>
+                  <div className="font-semibold  text-center">Value</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold text-slate-800 text-center">
-                    Edit
-                  </div>
+                  <div className="font-semibold  text-center">Edit</div>
                 </th>
               </tr>
             </thead>
@@ -220,7 +208,7 @@ function Assets(props) {
                               backgroundColor: "#fff",
                             }}
                           />
-                          <div className="text-slate-800">{coin.name}</div>
+                          <div className="">{coin.name}</div>
                         </div>
                       </td>
 

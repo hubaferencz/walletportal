@@ -139,7 +139,7 @@ export default function DropdownCombobox({
         <input
           {...getInputProps()}
           className="search-input"
-          placeholder="Search for a coin"
+          placeholder="Add new coin..."
           onInput={(event) => {
             if (event.target.value.length === 0) {
               setResults([]);

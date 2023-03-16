@@ -13,7 +13,7 @@ function Header(props) {
           {/* Header: Left side */}
           <Link to="/">
             <div className="flex">
-              <img className="h-14 fill-current" src={logo} alt="" srcSet="" />
+              <img className="h-12 fill-current" src={logo} alt="" srcSet="" />
             </div>
           </Link>
 
