@@ -4,8 +4,8 @@ import Modal from "../../components/Modal";
 import formatNumber from "../../utils/formatNumber";
 import DropdownCombobox from "../../components/DropdownCombobox";
 import editIcon from "../../images/edit.png";
-import deleteIcon from "../../images/delete.png";
-import closeIcon from "../../images/close.png";
+import deleteIcon from "../../images/trash.svg";
+import pencilIcon from "../../images/pencil.svg";
 
 function Assets(props) {
   const [modalError, setModalError] = useState(false);
@@ -95,8 +95,8 @@ function Assets(props) {
     <div className="col-span-full xl:col-span-6 shadow-lg rounded-sm chart-box">
       <Modal isShowing={showModal} setShowModal={setShowModal} ref={modalRef}>
         <img
-          src={closeIcon}
-          alt="closeIcon"
+          src={pencilIcon}
+          alt="pencilIcon"
           srcSet=""
           className="modal-close"
           onClick={() => setShowModal(false)}
@@ -204,7 +204,7 @@ function Assets(props) {
                             width="36"
                             height="36"
                             style={{
-                              borderRadius: "8px",
+                              borderRadius: "100px",
                               backgroundColor: "#fff",
                             }}
                           />

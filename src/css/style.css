@@ -14,14 +14,7 @@
 
 
 .main-header {
-  /* background: rgba(255, 255, 255, 0.121);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 0.1px solid rgba(255, 255, 255, 0.32);
-  border-radius: 0 0 10px 10px; */
-  background-color: #007ACC;
+  background-color: #1E1F1F;
   /* border-bottom: 0; */
   border-top: 0;
   
@@ -33,8 +26,9 @@ header {
 
 .chart-box {
   /* color: black; */
-  background:#007ACC;
-  border-radius: 10px;
+  background:#1E1F1F;
+  /* background:#18A974; */
+  border-radius: 25px;
   color: #f0f8ff;
 }
 

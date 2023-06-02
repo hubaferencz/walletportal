@@ -14,14 +14,14 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  background-color: #007ACC;
+  background-color: #18A974;
   transform: translate(-50%, -50%);
   height: 330px;
   width: 500px;
   max-width: 97%;
   max-height: 100%;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,7 +62,7 @@
   height: 40px;
   padding-left: 5px;
   border: none;
-  border-radius: 8px;
+  border-radius: 25px;
   width: 200px;
   max-width: 100%;
   font-size: 16px;
@@ -70,7 +70,7 @@
 
 .modal-close {
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 25px;
   background: transparent;
 }
 
@@ -78,7 +78,7 @@
   cursor: pointer;
   width: 80px;
   height: 30px;
-  border-radius: 8px;
+  border-radius: 25px;
   border: none;
   outline: none;
   color: #1e293b;

@@ -4,12 +4,12 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyCD389aSWTDIEPwXcqwlHFZJstHOm01Dvw",
+  authDomain: "walletportal-475b7.firebaseapp.com",
+  projectId: "walletportal-475b7",
+  storageBucket: "walletportal-475b7.appspot.com",
+  messagingSenderId: "408423245557",
+  appId: "1:408423245557:web:951de0ad9aca07b78147bc"
 };
 
 const app = initializeApp(firebaseConfig);

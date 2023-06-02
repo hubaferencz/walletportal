@@ -8,7 +8,7 @@ import "./css/style.css";
 
 // Import pages
 import Dashboard from "./pages/dashboard/Dashboard";
-import Affiliate from "./pages/affiliate/Affiliate";
+
 
 import Header from "./partials/Header";
 
@@ -200,7 +200,7 @@ function App() {
                     />
                   }
                 />
-                <Route exact path="/get-crypto" element={<Affiliate />} />
+
               </Routes>
 
               <div className="footer">
